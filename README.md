@@ -1,12 +1,11 @@
-## <img src="https://img.shields.io/badge/-Archlinux-white?style=for-the-badge&logo=archlinux" alt="Arch" /> CheetSheet 
-
+<p align="center">
+<p align="center">
+<img src="https://img.shields.io/badge/-Archlinux-white?style=for-the-badge&logo=archlinux" alt="Arch" /> <samp> CheetSheet </samp> 
+</p>
 pacman
-======
-
-view logs: /var/log/pacman.log
-
-update system
-# pacman -Syu
+---
+## update system
+` pacman -Syu `
 
 list installed packages
 # pacman -Q
@@ -76,7 +75,8 @@ java environments
 =================
 
 check status
-$ archlinux-java status
+`$ archlinux-java status`
 
-set default version
-# archlinux-java set <version>
+### set default version
+`$ archlinux-java set <version>`
+</p>
