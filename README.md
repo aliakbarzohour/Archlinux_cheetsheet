@@ -2,31 +2,32 @@
 <p align="center">
 <img src="https://img.shields.io/badge/-Archlinux-white?style=for-the-badge&logo=archlinux" alt="Arch" /> <samp> CheetSheet </samp> 
 </p>
-pacman
----
+
+# pacman
+
 ## update system
-` pacman -Syu `
+`$ pacman -Syu `
 
-list installed packages
-# pacman -Q
+## list installed packages
+`$ pacman -Q`
 
-list packages no longer required by others
-# pacman -Qdtq
+## list packages no longer required by others
+`$ pacman -Qdtq`
 
-search installed packages
-# pacman -Qs <name>
+## search installed packages
+`$ pacman -Qs <name>`
 
-search packages
-# pacman -Ss <name>
+## search packages
+`$ pacman -Ss <name>`
 
-install packages
-# pacman -S <name>
+## install packages
+`$ pacman -S <name>`
 
-remove package, its dependencies and config file backups
-# pacman -Rns <name>
+## remove package, its dependencies and config file backups
+`$ pacman -Rns <name>`
 
-clean old packages in cache
-# pacman -Sc
+## clean old packages in cache
+`$ pacman -Sc`
 
 yaourt
 ======
