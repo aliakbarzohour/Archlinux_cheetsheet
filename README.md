@@ -29,21 +29,11 @@
 ## clean old packages in cache
 `$ pacman -Sc`
 
-yaourt
-======
+## list running units
+`$ systemctl`
 
-same as pacman
-
-systemd
-=======
-
-unit files: /usr/lib/systemd/system/ or /etc/systemd/system/
-
-list running units
-$ systemctl
-
-check status
-$ systemctl status <unit>
+## check status
+`$ systemctl status <unit>`
 
 start/stop a service
 # systemctl (start|stop) <unit>
