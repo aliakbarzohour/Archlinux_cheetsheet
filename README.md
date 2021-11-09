@@ -35,14 +35,14 @@
 ## check status
 `$ systemctl status <unit>`
 
-start/stop a service
-# systemctl (start|stop) <unit>
+## start/stop a service
+‍‍`$ systemctl (start|stop) <unit>‍‍‍‍`
 
-enable/disable a service at bootup
-# systemctl (enable|disable) <unit>
+## enable/disable a service at bootup
+`$ systemctl (enable|disable) <unit>
 
-reload systemd
-# systemctl daemon-reload
+## reload systemd
+1$ systemctl daemon-reload`
 
 manual install of AUR packages
 ==============================
