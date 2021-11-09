@@ -39,28 +39,28 @@
 ‍‍`$ systemctl (start|stop) <unit>‍‍‍‍`
 
 ## enable/disable a service at bootup
-`$ systemctl (enable|disable) <unit>
+`$ systemctl (enable|disable) <unit>`
 
 ## reload systemd
-1$ systemctl daemon-reload`
+`$ systemctl daemon-reload`
 
 manual install of AUR packages
 ==============================
 
-update repositories
-# pacman -Sy
+## update repositories
+`$ pacman -Sy`
 
-grab the package
-$ curl -O <url> (e.g. https://aur.archlinux.org/packages/ya/yaourt/yaourt.tar.gz)
+## grab the package
+`$ curl -O <url> (e.g. https://aur.archlinux.org/packages/ya/yaourt/yaourt.tar.gz)`
 
-untar package
-$ tar xzvf <package.tar.gz>
+## untar package
+`$ tar xzvf <package.tar.gz>`
 
-change into package directory
-$ cd <package>
+## change into package directory
+`$ cd <package>`
 
-build and install
-$ makepkg -si
+## build and install
+`$ makepkg -si`
 
 java environments
 =================
