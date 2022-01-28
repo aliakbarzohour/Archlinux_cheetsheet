@@ -1,5 +1,5 @@
 pacman
-======
+---
 
 view logs: /var/log/pacman.log
 
